@@ -20,15 +20,15 @@
   "env": {
     "API_ID": {
       "description": "The API ID obtained from https://my.telegram.org/auth",
-      "value":""
+      "value":"1225523"
     },
     "API_HASH": {
       "description": "The API_HASH obtained from https://my.telegram.org/auth",
-      "value": ""
+      "value": "ec0ae6e668e4eaa669c536acf13c9f59"
     },
     "BOT_TOKEN":{
         "description": "Put your BOT token obtained from BotFather",
-        "value": ""
+        "value": "1653883878:AAHb3sOAcrCjzLiASCdNDTT-fw-TBrM-qVQ"
     }
 
   }
