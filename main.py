@@ -22,8 +22,8 @@ async def start_browser():
 
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
-    await event.respond('Hi! I am alive. \
-        Send me any link, I will send you the screenshot of that page.')
+    await event.respond('Salam! Mən yaşıyıram 😅🚀. \
+        Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌')
     raise events.StopPropagation
 
 
