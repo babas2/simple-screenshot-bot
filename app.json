@@ -1,5 +1,5 @@
 {
-  "name": "Simple Screen Shot",
+  "name": "babasin ureyi 🙀",
   "description": "Telegram bot that takes screenshot of webpages",
   "keywords": [
     "telegram",
@@ -7,7 +7,7 @@
     "screenshot"
   ],
   "website": "https://aahnik.github.io",
-  "repository": "https://github.com/aahniks/simple-screenshot-bot",
+  "repository": "https://github.com/babas2/ssbotofbabas",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png",
 
   "buildpacks": [
