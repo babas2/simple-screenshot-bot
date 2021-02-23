@@ -22,7 +22,7 @@ async def start_browser():
 
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
-    await event.respond('Salam! Mən bir səhifəni ss etmək üçün bir botam 🥳\nMənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌\n❗DİQQƏT\nNümunə: google.com yerinə https://google.com yazın!')
+    await event.respond('Salam! Mən bir səhifəni ss etmək üçün bir botam 🥳 Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atım📌\n\n❗DİQQƏT\nNümunə: google.com yerinə https://google.com yazın!')
     raise events.StopPropagation
 
 
@@ -36,9 +36,8 @@ async def echo(event):
 
 
             file_name = f'{time.time()}.png'
-            babas2 = ' Məni işlətdiyin üçün təşəkkürlər @c9alabots 💕'
             await page.screenshot(path=file_name, fullPage=False)
-            await event.reply(event.text, file=file_name, babas2)
+            await event.reply(event.text, file=file_name)
             os.remove(file_name)
 
     except Exception as err:
