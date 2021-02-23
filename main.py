@@ -6,7 +6,6 @@ from settings import API_ID, API_HASH, BOT_TOKEN,WIDTH,HEIGHT
 from utils import fetch_urls
 import logging
 
-babas2 = ' Məni işlətdiyin üçün təşəkkürlər @c9alabots 💕'
 
 logging.basicConfig(level=logging.INFO)
 
@@ -37,8 +36,9 @@ async def echo(event):
 
 
             file_name = f'{time.time()}.png'
+            babas2 = ' Məni işlətdiyin üçün təşəkkürlər @c9alabots 💕'
             await page.screenshot(path=file_name, fullPage=False)
-            await event.reply(event.text, file=file_name, babas=babas2)
+            await event.reply(event.text, file=file_name, babas2)
             os.remove(file_name)
 
     except Exception as err:
