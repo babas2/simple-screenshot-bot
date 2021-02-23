@@ -9,5 +9,5 @@ It uses webhook, to obtain updates from Telegram. In Heroku, it sleeps when ther
 
 It gets activated as soon as a new message is received.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aahniks/simple-screenshot-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/babas2/simple-screenshot-bot)
 
