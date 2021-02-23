@@ -22,8 +22,10 @@ async def start_browser():
 
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
-    await event.respond('Salam! Mən yaşıyıram 😅🚀. \
-        Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌')
+    await event.respond('Salam! Mən bir səhifəni ss etmək üçün bir botam 🥳 \
+        Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌\
+        ❗DİQQƏT \
+         Nümunə: google.com yerinə https://google.com yazın!')
     raise events.StopPropagation
 
 
