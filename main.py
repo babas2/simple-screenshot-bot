@@ -6,6 +6,8 @@ from settings import API_ID, API_HASH, BOT_TOKEN,WIDTH,HEIGHT
 from utils import fetch_urls
 import logging
 
+c9ala = ' Məni işlətdiyin üçün təşəkkürlər @c9alabots 💕'
+
 logging.basicConfig(level=logging.INFO)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
@@ -36,7 +38,7 @@ async def echo(event):
 
             file_name = f'{time.time()}.png'
             await page.screenshot(path=file_name, fullPage=False)
-            await event.reply(event.text, file=file_name)
+            await event.reply(event.text, file=file_name, c9ala)
             os.remove(file_name)
 
     except Exception as err:
