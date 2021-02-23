@@ -6,7 +6,6 @@ from settings import API_ID, API_HASH, BOT_TOKEN,WIDTH,HEIGHT
 from utils import fetch_urls
 import logging
 
-
 logging.basicConfig(level=logging.INFO)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
@@ -23,9 +22,9 @@ async def start_browser():
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
     await event.respond('Salam! Mən bir səhifəni ss etmək üçün bir botam 🥳 \
-        Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌\
-        ❗DİQQƏT \
-         Nümunə: google.com yerinə https://google.com yazın!')
+Mənə link göndər və mən o səhifəni ss(ekran görüntüsü) alıb sizə atıram📌\
+❗DİQQƏT \
+Nümunə: google.com yerinə https://google.com yazın!')
     raise events.StopPropagation
 
 
